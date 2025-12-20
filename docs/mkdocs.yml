@@ -32,7 +32,7 @@ theme:
   # logo: assets/logo.png
   # favicon: assets/logo.png
 repo_name: d3ploy
-  repo_url: https://github.com/7figurefortune/bolt.diy
+repo_url: https://github.com/7figurefortune/bolt.diy
 edit_uri: ''
 
 extra:
