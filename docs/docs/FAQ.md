@@ -13,7 +13,7 @@ For the best experience with d3ploy, we recommend using the following models:
     - **Qwen 2.5 Coder 32b**: Best model for self-hosting with reasonable hardware requirements
 
     !!! warning
-        Models with less than 7b parameters typically lack the capability to properly interact with bolt!
+        Models with less than 7b parameters typically lack the capability to properly interact with D3ploy!
 
 ## Best Practices
 

@@ -11,7 +11,7 @@ test.describe('Preview Deployment Smoke Tests', () => {
     await page.goto('/');
     
     // Check that the page loads
-    await expect(page).toHaveTitle(/bolt\.diy/);
+    await expect(page).toHaveTitle(/d3ploy/i);
     
     // Check for key elements
     await expect(page.locator('body')).toBeVisible();

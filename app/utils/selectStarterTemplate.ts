@@ -163,7 +163,7 @@ export async function getTemplates(templateName: string, title?: string) {
   // exclude    .bolt
   filteredFiles = filteredFiles.filter((x) => x.path.startsWith('.bolt') == false);
 
-  // check for ignore file in .bolt folder
+  // check for ignore file in .D3ploy folder
   const templateIgnoreFile = files.find((x) => x.path.startsWith('.bolt') && x.name == 'ignore');
 
   const filesToImport = {
@@ -184,7 +184,7 @@ export async function getTemplates(templateName: string, title?: string) {
   }
 
   const assistantMessage = `
-Bolt is initializing your project with the required files using the ${template.name} template.
+D3ploy is initializing your project with the required files using the ${template.name} template.
 <boltArtifact id="imported-files" title="${title || 'Create initial files'}" type="bundled">
 ${filesToImport.files
   .map(

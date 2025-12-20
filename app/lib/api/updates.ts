@@ -55,8 +55,13 @@ export const checkForUpdates = async (): Promise<UpdateCheckResult> => {
      * Get the latest version from GitHub's main branch package.json
      * Using raw.githubusercontent.com which doesn't require authentication
      */
+    /*
+     * const latestPackageResponse = await fetch(
+     *   'https://raw.githubusercontent.com/7figurefortune/bolt.diy/main/package.json',
+     * );
+     */
     const latestPackageResponse = await fetch(
-      'https://raw.githubusercontent.com/stackblitz-labs/bolt.diy/main/package.json',
+      'https://raw.githubusercontent.com/7figurefortune/d3ploy/main/package.json',
     );
 
     if (!latestPackageResponse.ok) {

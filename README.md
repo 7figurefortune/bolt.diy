@@ -2,7 +2,7 @@
 
 [![d3ploy: AI-Powered Full-Stack Web Development in the Browser](./public/social_preview_index.jpg)](https://d3ploy.app)
 
-Welcome to d3ploy, the official open source version of Bolt.new, which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, or Groq models - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
+Welcome to d3ploy, the official open source version of D3ploy, which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, or Groq models - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
 
 -----
 
@@ -25,7 +25,7 @@ Welcome to d3ploy, the official open source version of Bolt.new, which allows yo
 - ✅ Autogenerate Ollama models from what is downloaded (@yunatamos)
 - ✅ Filter models by provider (@jasonm23)
 - ✅ Download project as ZIP (@fabwaseem)
-- ✅ Improvements to the main bolt.new prompt in `app\lib\.server\llm\prompts.ts` (@kofi-bhr)
+- ✅ Improvements to the main D3ploy prompt in `app\lib\.server\llm\prompts.ts` (@kofi-bhr)
 - ✅ DeepSeek API Integration (@zenith110)
 - ✅ Mistral API Integration (@ArulGandhi)
 - ✅ "Open AI Like" API Integration (@ZerxZ)
@@ -35,7 +35,7 @@ Welcome to d3ploy, the official open source version of Bolt.new, which allows yo
 - ✅ xAI Grok Beta Integration (@milutinke)
 - ✅ LM Studio Integration (@karrot0)
 - ✅ HuggingFace Integration (@ahsan3219)
-- ✅ Bolt terminal to see the output of LLM run commands (@thecodacus)
+- ✅ D3ploy terminal to see the output of LLM run commands (@thecodacus)
 - ✅ Streaming of code output (@thecodacus)
 - ✅ Ability to revert code to earlier version (@wonderwhy-er)
 - ✅ Chat history backup and restore functionality (@sidbetatester)
@@ -53,13 +53,13 @@ Welcome to d3ploy, the official open source version of Bolt.new, which allows yo
 - ✅ PromptLibrary to have different variations of prompts for different use cases (@thecodacus)
 - ✅ Detect package.json and commands to auto install & run preview for folder and git import (@wonderwhy-er)
 - ✅ Selection tool to target changes visually (@emcconnell)
-- ✅ Detect terminal Errors and ask bolt to fix it (@thecodacus)
-- ✅ Detect preview Errors and ask bolt to fix it (@wonderwhy-er)
+- ✅ Detect terminal Errors and ask D3ploy to fix it (@thecodacus)
+- ✅ Detect preview Errors and ask D3ploy to fix it (@wonderwhy-er)
 - ✅ Add Starter Template Options (@thecodacus)
 - ✅ Perplexity Integration (@meetpateltech)
 - ✅ AWS Bedrock Integration (@kunjabijukchhe)
 - ✅ Add a "Diff View" to see the changes (@toddyclipsgg)
-- ⬜ **HIGH PRIORITY** - Prevent bolt from rewriting files as often (file locking and diffs)
+- ⬜ **HIGH PRIORITY** - Prevent D3ploy from rewriting files as often (file locking and diffs)
 - ⬜ **HIGH PRIORITY** - Better prompting for smaller LLMs (code window sometimes doesn't start)
 - ⬜ **HIGH PRIORITY** - Run agents in the backend as opposed to a single model call
 - ✅ Deploy directly to Netlify (@xKevIsDev)
@@ -92,10 +92,10 @@ Let's get you up and running with the latest version of D3ploy!
 
 ## Quick Installation
 
-[![Download Latest Release](https://img.shields.io/github/v/release/stackblitz-labs/bolt?label=Download%20D3ploy&sort=semver)](https://d3ploy.app) ← Click here to go the the latest release version!
+[![Download Latest Release](https://img.shields.io/github/v/release/7figurefortune/bolt.diy?label=Download%20D3ploy&sort=semver)](https://d3ploy.app) ← Click here to go the the latest release version!
 
 - Download the binary for your platform
-- Note: For macOS, if you get the error "This app is damaged", run ```xattr -cr /path/to/Bolt.app```
+- Note: For macOS, if you get the error "This app is damaged", run ```xattr -cr /path/to/D3ploy.app```
 
 ## Manual installation
 
@@ -164,7 +164,7 @@ Setting up your API keys in D3ploy is straightforward:
 For providers that support custom base URLs (such as Ollama or LM Studio), follow these steps:
 
 1. Click the settings icon in the sidebar to open the settings menu
-   ![Settings Button Location](./docs/images/bolt-settings-button.png)
+   ![Settings Button Location](./docs/images/d3ploy-settings-button.png)
 
 2. Navigate to the "Providers" tab
 3. Search for your provider using the search bar
@@ -197,7 +197,7 @@ This method is recommended for developers who want to:
 1. **Clone the Repository**:
 
    ```bash
-   git clone -b stable https://github.com/stackblitz-labs/bolt.git
+   git clone -b stable https://github.com/7figurefortune/bolt.diy
    ```
 
 2. **Navigate to Project Directory**:

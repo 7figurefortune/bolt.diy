@@ -2,7 +2,6 @@
 
 Welcome! This guide provides all the details you need to contribute effectively to the project. Thank you for helping us make **d3ploy** a better tool for developers worldwide. 💡
 
----
 
 ## 📋 Table of Contents
 
@@ -18,8 +17,6 @@ Welcome! This guide provides all the details you need to contribute effectively 
 
 ---
 
-## 🛡️ Code of Conduct
-
 This project is governed by our **Code of Conduct**. By participating, you agree to uphold this code. Report unacceptable behavior to the project maintainers.
 
 ---
@@ -30,10 +27,9 @@ This project is governed by our **Code of Conduct**. By participating, you agree
 
 - Check the [issue tracker](#) to avoid duplicates.
 - Use issue templates (if available).
-- Provide detailed, relevant information and steps to reproduce bugs.
+
 
 ### 2️⃣ Code Contributions
-
 1. Fork the repository.
 2. Create a feature or fix branch.
 3. Write and test your code.
@@ -48,8 +44,6 @@ Interested in maintaining and growing the project? Fill out our [Contributor App
 ## ✅ Pull Request Guidelines
 
 ### PR Checklist
-
-- Branch from the **main** branch.
 - Update documentation, if needed.
 - Test all functionality manually.
 - Focus on one feature/bug per PR.
@@ -61,7 +55,6 @@ Interested in maintaining and growing the project? Fill out our [Contributor App
 3. Address review comments.
 4. Maintain a clean commit history.
 
----
 
 ## 📏 Coding Standards
 

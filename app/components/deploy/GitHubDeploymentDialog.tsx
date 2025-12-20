@@ -362,7 +362,7 @@ export function GitHubDeploymentDialog({ isOpen, onClose, projectName, files }: 
         const { data: commitData } = await octokit.git.createCommit({
           owner: connection.user.login,
           repo: repoName,
-          message: !repoExists ? 'Initial commit from Bolt.diy' : 'Update from Bolt.diy',
+          message: !repoExists ? 'Initial commit from D3ploy' : 'Update from D3ploy',
           tree: treeData.sha,
           parents: parentCommitSha ? [parentCommitSha] : [], // Use parent if available
         });

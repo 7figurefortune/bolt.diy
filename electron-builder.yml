@@ -55,8 +55,8 @@ npmRebuild: false
 
 publish:
   provider: github
-  owner: Derek-X-Wang
-  repo: bolt.local
+  owner: 7figurefortune
+  repo: bolt.diy
   private: true
   releaseType: release
 

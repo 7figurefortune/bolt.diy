@@ -59,12 +59,12 @@ If you're new to installing software from GitHub, don't worry! If you encounter 
 
 ### Clone the Repository
 
-Alternatively, you can download the latest version of the project directly from the [Releases Page](https://github.com/stackblitz-labs/bolt/releases/latest). Simply download the .zip file, extract it, and proceed with the setup instructions below. If you are comfortable using git then run the command below.
+Alternatively, you can download the latest version of the project directly from the [Releases Page](https://github.com/7figurefortune/bolt.diy/releases/latest). Simply download the .zip file, extract it, and proceed with the setup instructions below. If you are comfortable using git then run the command below.
 
 Clone the repository using Git:
 
 ```bash
-git clone -b stable https://github.com/stackblitz-labs/bolt
+git clone -b stable https://github.com/7figurefortune/bolt.diy
 ```
 
 ---
@@ -211,10 +211,10 @@ This will start the Remix Vite development server. You will need Google Chrome C
 
 Here are some tips to get the most out of d3ploy:
 
-- **Be specific about your stack**: If you want to use specific frameworks or libraries (like Astro, Tailwind, ShadCN, or any other popular JavaScript framework), mention them in your initial prompt to ensure Bolt scaffolds the project accordingly.
+- **Be specific about your stack**: If you want to use specific frameworks or libraries (like Astro, Tailwind, ShadCN, or any other popular JavaScript framework), mention them in your initial prompt to ensure D3ploy scaffolds the project accordingly.
 
 - **Use the enhance prompt icon**: Before sending your prompt, try clicking the 'enhance' icon to have the AI model help you refine your prompt, then edit the results before submitting.
 
 - **Scaffold the basics first, then add features**: Make sure the basic structure of your application is in place before diving into more advanced functionality. This helps D3ploy understand the foundation of your project and ensure everything is wired up right before building out more advanced functionality.
 
-- **Batch simple instructions**: Save time by combining simple instructions into one message. For example, you can ask Bolt to change the color scheme, add mobile responsiveness, and restart the dev server, all in one go saving you time and reducing API credit consumption significantly.
+- **Batch simple instructions**: Save time by combining simple instructions into one message. For example, you can ask D3ploy to change the color scheme, add mobile responsiveness, and restart the dev server, all in one go saving you time and reducing API credit consumption significantly.
